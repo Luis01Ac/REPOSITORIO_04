@@ -1,0 +1,35 @@
+body {
+    background-color: #b5b4b4; 
+}
+
+.btn-primary {
+    background-color: #ff5733;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #c1351d;
+    transform: scale(1.1);
+}
+
+
+section {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+@media (max-width: 768px) {
+    .navbar {
+        background-color: #343a40;
+    }
+
+    .btn-primary {
+        background-color: #ff5733;
+    }
+
+    footer {
+        background-color: #1a4c7e;
+        color: rgb(163, 45, 45);
+    }
+}
+
